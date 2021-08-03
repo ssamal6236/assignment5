@@ -1,0 +1,305 @@
+/*importing google font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.image-container
+{
+    background: rgb(202, 186, 18);
+    position: absolute;
+    height: 100vh;
+    min-width: 1349px;
+    margin-left: 185px;
+}
+.sidebar{
+    position: fixed;
+    height: 125vh;
+    background: black; 
+    width: 190px;
+    display: inline-block;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.logo img{
+    height: 12vh;
+    /*border-radius: 20px;*/
+    padding-left: 35px;
+}
+.logo h1{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 0px 30px;
+}
+header{
+    padding: 20px 0px;
+}
+.nav{
+    padding-right: 40px;
+    margin-top: 20px;
+}
+.nav ul li{
+    list-style: none;
+    padding: 15px 0px;
+    text-align: center;
+    border-bottom: 1px solid rgb(202, 186, 18);
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav ul li a:hover{
+    font-weight: bolder;
+}
+.icons{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.icons i{
+    padding: 7px 7px;
+    color: white;
+    border: 1px solid rgb(202, 186, 18);
+    cursor: pointer;
+}
+.icons i:hover{
+    background: white;
+    color:black;
+   }
+.footer{
+    text-align: center;
+    color:white;
+    margin-top: 20px;
+    font-size: 10px;
+}
+.developer{
+    position: absolute;
+   /* height: 100%;*/
+    margin-top: 300px;
+    margin-left: 500px;
+    padding: 0px 50px;
+}
+.developer h1{
+    font-size: 80px;
+}
+.developer h4{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+/*ABOUT PAGE STYLING*/
+.about{
+    position: absolute;
+    margin-left: 170px;
+    height: 100%;
+    min-width:1365px;
+    background: rgb(202, 186, 18)
+}   
+.inside-about h1{
+    position: absolute;
+    color: black;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right{
+    padding: 50px 5px;
+}
+.right img{
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding-right: 50px;
+}
+.left{
+    margin-left: -300px;
+    padding-right: 400px;
+}
+.left h1{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+    padding-right: 70px;
+} 
+.underline{
+    position: absolute;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 2px;
+    margin-top: 100px;
+    background-color: black
+}
+.socials{
+
+    margin-top: 100px;
+    margin-left: 55px;
+    
+}
+.socials i{
+    
+    padding:10px 10px;
+    color:black;
+    font-size: large;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.socials i:hover{
+    background: black;
+    color: white;
+}
+
+/*project*/
+.resume{
+    position: absolute;
+    margin-left: 200px;
+    min-width: 1180px;
+}
+.resume h1{
+    position: absolute;
+    color: black;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+.resume-container{
+    margin-top: 80px;
+    padding: 0px 50px;
+}
+.inside-resume{
+    background: cornsilk;
+    padding: 0px;
+    display: flex;
+   
+    align-items: center;
+    box-shadow: 0 8px 12px -12px white;
+    margin-top: 20px;
+}
+.resume-left{
+    background-color: black;
+    padding: 25px 70px;
+
+}
+.resume-left img{
+    height: 150px;
+}
+.resume-left h4{
+   color: white;
+   margin-top: 40px;
+   font-size: 22px; 
+}
+.resume-left h5{
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+.resume-right{
+    text-align: left;
+    padding: 10px 40px;
+    line-height: 1.4;
+    width: 100%;
+}
+.btn{
+    float: right;
+    margin-top: 60px;
+    padding: 10px; 
+}
+.btn a{
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px 40px;
+    background: black;
+    color: white;
+}
+.btn a:hover{
+    color: black;
+    background: rgb(202, 186, 18);
+}
+/*contact*/
+.contact{
+    position: absolute;
+    
+    height: 100%;
+    min-width: 1180px;
+    margin-left: 200px;
+    background: rgb(202, 186, 18);
+}
+.contact h1{
+    margin-top: 30px;
+    color: black;
+    position: absolute;
+    font-size: 25px;
+    margin-left: 40px;
+}
+.underline3{
+    position: absolute;
+    width:100%;
+    height: 2px;
+    margin-top: 70px;
+    background: rgb(49, 43, 43);
+}
+.contact-container{
+    position: absolute;
+    padding: 80px 70px;
+    margin-top: 50px;
+    color: black;
+}
+.row{
+    padding: 30px 0px;
+
+}
+.row input{
+    width: 35%;
+    box-shadow: rgb(0, 0, 0,.95) 0px 5px 15px;
+    margin-left: 45px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    transition: transform 1s, filter .5s ease-out;
+    border-bottom: 1px solid rgb(46,44,44);
+}
+.row input:hover{
+    transform: scale(1.1);
+}
+.row textarea{
+    margin-left: 20px;
+   
+    border: none;
+    box-shadow: rgb(0, 0, 0,.95) 0px 5px 15px;
+    background-color: transparent;
+    transition: transform 1s, filter .5s ease-out;
+    border-bottom: 1px solid rgb(46,44,44);
+}
+.row textarea:hover{
+    transform: scale(1.1);
+}
+.row label{
+    font-weight: 800;
+}
+.btn2{
+   
+    margin-top: 40px;
+}
+.btn2 a{
+    text-decoration: none;
+    background-color:black;
+    color: rgb(202, 186, 18);
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.btn2 i{
+    color: aquamarine;
+    margin-right: 10px;
+    font-size: 20px;
+}
