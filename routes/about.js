@@ -3,6 +3,6 @@ var router = express.Router();
 
 
 router.get("/about",(req,res,next)=>{
-    res.render('about', { title: 'Vikram </about>' });
+    res.render('about', { title: 'Sovan </about>' });
 })
 module.exports = router;
